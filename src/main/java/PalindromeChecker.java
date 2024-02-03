@@ -56,3 +56,4 @@ sNew=sNew+str.substring(i-1,i);
 }
     return sNew;
 }
+}
