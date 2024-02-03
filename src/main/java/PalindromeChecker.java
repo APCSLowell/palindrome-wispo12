@@ -38,7 +38,7 @@ public void tester()
 public boolean palindrome(String word)
 {
   
-if(reverse(word).equals(word))
+if((reverse(word).toLowerCase()) .equals((word).toLowerCase()))
 {
 return true;
 }
