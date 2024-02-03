@@ -53,7 +53,7 @@ public String reverse(String str)
     String sNew = new String();
     for(int i=sNew.length();i>0;i--)
 { 
-if(str.charAt(i)!=false && str.substring(i,i+1)!.equals(" "))
+if(str.charAt(i)!=false && (str.substring(i,i-1).equals(" ")==false))
 {
   sNew=sNew+str.substring(i-1,i);
 }
